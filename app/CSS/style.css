@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.camisaNegra{
+    background-image: url(/app/img/camiseta/black.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45rem;
+    width: 54rem;
+}
+
+.camisaBlanca{
+    background-image: url(/app/img/camiseta/white.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45rem;
+    width: 54rem;
+}
+
+.container{
+    height: 100vh;
+}
+
+.imagen-centro{
+    width: 30%;
+}
+
+.imagen-esquina{
+    width: 14%;
+}
+
+@font-face {
+    font-family: 'retro-game';
+    src: url('/app/FONTS/Retro\ Gaming.ttf');
+}
+
+.texto-camisa{
+    font-family: 'retro-game';
+    font-size: 1.5rem;
+}
+
+#text-esquina{
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+}
+
+.imagen-drag{
+    width: 15%;
+}
